@@ -9,7 +9,7 @@
  		// It should pop up an 'alert' box that says "Hello"!
  		alert("Hi! (This is the first of three messages)");
  		//then it will pop up an alert that says "Welcome to JavaScript!"
- 		alrt("Welcome to JavaScript! (This is the second of three messages)");
+ 		alert("Welcome to JavaScript! (This is the second of three messages)");
  		//then it will pop up one more alert to say "You did it!"
  		alert("You did it! (This is the third of three messages)");
  }
@@ -49,7 +49,7 @@
  	val3 = (parseInt(val3) ? parseInt(val3) : 0);
 
  	// add the three values
- 	var total = val1 + val2;
+ 	var total = val1 + val2 + val3;
 
  	//display the total in the results area
  	document.getElementById("resultArea").innerHTML=total;
